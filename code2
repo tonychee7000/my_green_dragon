@@ -1,0 +1,10 @@
+tonychyi@TonyChyi:~/> echo 'http://fakesite'|base64
+aHR0cDovL2Zha2VzaXRlCg==
+tonychyi@TonyChyi:~/> echo 'http://假网址'|base64
+aHR0cDovL+WBh+e9keWdgAo=
+tonychyi@TonyChyi:~/> echo 'http://itsajoke'|base64
+aHR0cDovL2l0c2Fqb2tlCg==
+tonychyi@TonyChyi:~/> md
+md5sum    mdadm     mdel      mdeltree  mdir      mdmon     mdu
+tonychyi@TonyChyi:~/> echo 'http://itsajoke'|md5sum
+29d187db7f8002a6f672539cdc5a8b8c  -
